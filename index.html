@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+        .div1{background-color:lightpink ;
+              height: 300px;
+              width: 300px;
+              border: 1px solid black;
+              border-radius: 50%;
+              margin-left: 34%;
+              margin-top:10% ;}
+
+              .div1:hover{transform: rotate(-360deg);
+               opacity: 0.5;
+              background-color: whitesmoke;
+              transform: skew(-10deg);
+              border-right:10px dotted red;}
+
+        .div_eyes{height: 40px;
+        	      width: 40px;
+        	      background-color: black;
+        	      border-radius: 50%;
+        	      
+        	      margin-left: 20%;
+        	      margin-top: 20%;
+        	      float: left;}
+        .div2nd_eyes{height: 25px;
+                     width: 25px;
+                     background-color: whitesmoke;
+                     border-radius: 50%;
+                     margin-top: 40%;
+                     margin-left: 16%;}
+        .div2nd_eyes:hover{background-color: brown;}
+        .smile{
+        	height: 90px;
+        	width: 222px;
+        	border-bottom-right-radius: 50%;
+          border-bottom-left-radius: 50%;
+        	background-color: red;
+        	margin-left: 13%;
+        	margin-top: 50%;
+          border-width: 400px;}
+      .mask{height: 10px;
+           width: 40px;
+           background-color: black;
+           transform: rotate(15deg) skew(15deg);
+           float: left;
+           margin-top: -31%;}
+
+
+      #mask{float: right; 
+           transform: rotate(-15deg) skew(-15deg);}
+
+      p{margin-left:27%; 
+        font-size: 30px;
+        margin-top: 0px;
+        font-family: Segoe Script;
+        font-weight: bold;
+        text-indent: 50px;
+        letter-spacing: 5px;}
+  p:hover{color: red; font-size: 40px; 
+
+   transition-property: height: 30px;
+   transition-duration: 1s;
+   transition-timing-function: steps(6, start);
+   transition-delay: 1s;}
+   p:hover{transform:skew(20deg);}
+
+
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>smile</title>
+</head>
+<body>
+  <div class="div1">
+  	<div class="div_eyes">
+  		<div class="div2nd_eyes " ></div>
+  	</div>
+  	<div class="div_eyes" style="float: right; margin-right: 18%!important;">
+  		<div class="div2nd_eyes"></div>
+  	</div>
+
+   <div class="smile"></div>
+      <div class="mask"></div>
+      <div class="mask" style="margin-top: -20%;"></div>
+      <div class="mask" id="mask"></div>
+      <div class="mask" id="mask" style="margin-top:-20%;"></div>
+  </div>
+  <p>GUL<span style="text-decoration: line-through; text-decoration-color: red;">Z</span>AR ALICE</p>
+  <div class="color1"></div>
+</body>
+</html>
